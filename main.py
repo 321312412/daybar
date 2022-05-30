@@ -360,5 +360,4 @@ async def reroll(ctx):
         await ctx.send("No giveaways going on in this channel.")
 
 client.loop.create_task(setup())   
-client.run("OTUxOTI5MTQwNDc3NTc5MzU0.Gjy485.bZ4EpBUBYkJiGZD5SSp97eNewTlGJ_KZzExeCE")
 asyncio.run(client.db.close())
